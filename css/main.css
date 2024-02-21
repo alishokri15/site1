@@ -49,7 +49,7 @@ header
 .header {
   position: relative;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(/img/dry.jpg) center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(../img/dry.jpg) center/cover no-repeat fixed;
 
 }
 
@@ -114,10 +114,12 @@ feature
   background: #0491fd;
   padding: 2.5rem 0;
   transition: 2s;
+
 }
 
 .feature:hover {
   background: #66dcfa;
+  border-radius: 30px;
 }
 
 
